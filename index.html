@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthias Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header class="header">
-        <h1>QUIZ-APP</h1>
+        <h1>Äffle & Pferdle Quiz</h1>
 
     </header>
     <main>
@@ -21,25 +21,26 @@
 
             <h2 class="question">Question </h2>
 
-            <img src="images/bookmark-black.png" alt="Bookmark">
+            <img class="bookmark" src="images/bookmark-black.png" alt="Bookmark">
 
 
-            <article class="question">
+            <article class="card">
 
-                <p>Question 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, eligendi expedita
-                    dignissimos officia eveniet repudiandae hic impedit natus quis similique, porro quia minus debitis
-                    accusantium delectus, veniam qui quibusdam et?
+                <p class="card__question">Was isst das Äffle am liebsten?
                 </p>
-                <button class="show-answer">
+                <button class="answer-button">
                     <h3>Show Answer</h3>
                 </button>
 
+                <p class="card__answer"> Bananen
+
+                </p>
 
                 <ul class="tags">
-                    <li class="tag">tag 1</li>
-                    <li class="tag">tag 2</li>
-                    <li class="tag">tag 3</li>
-                    <li class="tag">tag 4</li>
+                    <li class="tag">Äffle</li>
+                    <li class="tag">Pferdle</li>
+                    <li class="tag">Hafer- und Bananenblues</li>
+
                 </ul>
 
             </article>
@@ -73,14 +74,14 @@
             </article>
         </section>
 
-        <section class="quiz-box, answer">
+        <section class="quiz-box answer">
 
             <h2 class="answer">Question </h2>
 
             <img src="images/bookmark-white.png" alt="Bookmark">
 
 
-            <article class="question">
+            <article class="question ">
 
                 <p>Question 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, eligendi expedita
                     dignissimos officia eveniet repudiandae hic impedit natus quis similique, porro quia minus debitis
@@ -120,6 +121,7 @@
         <a href="create.html"><img class="icon" src="images/cards.png" alt="Fragekarten erstellen"></a>
 
         <a href="profil.html"><img class="icon" src="images/usrprofile.png" alt="User-Profil"></a>
+
 
     </footer>
 
