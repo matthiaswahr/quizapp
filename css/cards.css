@@ -1,19 +1,27 @@
 .quiz-box {
     align-items: center;
-  background-color;: lightcoral
+  
   border-radius: 5px;
   box-shadow: 5px 5px 5px hsl(0, 18%, 91%);
   border-color: black;
 border-style: solid;
   
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   padding: 0.5rem 1rem;
   position: relative;
-  
 }
 
+.card {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  border-color: beige;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  background-color: lightcoral;
+}
 .question {
     font-family: sans-serif;
     font-size: 1rem;
@@ -22,7 +30,9 @@ border-style: solid;
 }
 
 .card__question {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
     
     
   }
@@ -36,7 +46,17 @@ border-style: solid;
   border: 2px black
   font-weight: bold;
   font-size: .8rem;
-  margin: 0, auto;  
+  margin: auto;
+  width: 20%;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  display: block;
+
+  .answer-button:hover {
+    color:hsl(10, 18%, 91%)
+
+  }
+  
   
   
   
@@ -77,6 +97,4 @@ border-style: solid;
   z-index: 10000;
 }
 
-body { 
-    background: linear-gradient(90deg, rgb(89, 82, 224) 20%, rgb(166, 166, 222) 35%, rgba(0,212,255,1) 100%);
-}
+
